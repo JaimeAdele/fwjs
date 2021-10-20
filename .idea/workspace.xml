@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Echo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/cache/CacheHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/casino/CasinoHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/casino/CasinoTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/Correspondent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/ProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/ProxyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/echo/SimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/math/MathHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echo/src/security/SecurityHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomQuartiles/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomQuartiles/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/Correspondent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/ProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/ProxyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/echo/SimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/rating/MathHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/rating/RatingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/rating/RatingsCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/ratingAttempt/MathHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rating/src/ratingAttempt/RatingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Readers&amp;Writers/src/buffers/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESUFOBossEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESUFOBossGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESUFOEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESUFOGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/ESWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/EnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/EnemyShipBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/EnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/EnemyShipTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/TestingReflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/UFOBossEnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/UFOBossEnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/UFOEnemyShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/UFOEnemyShipBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReflectionCheatSheet/src/enemyShip/UFOEnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RodCutting/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RodCutting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RodCutting/src/RodCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/AppFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/AppPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimStation/src/mvc/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/ContainerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/ContainerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/ContainerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/Rem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/Casino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/MathMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/StackMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/StatsCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/iCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SmartBox/src/smartbox/components/iStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/AppFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/AppPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/mvc/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/Heading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/ResumeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/SimulationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/SimulationPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/SimulationView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/StartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/StatsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/simstation/SuspendCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/sugarscape/SugarScape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/sugarscapeAttempt/Ant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/sugarscapeAttempt/SugarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/sugarscapeAttempt/SugarScape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SugarScape/src/sugarscapeAttempt/SugarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fwjs.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="659348700">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1541" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1541" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Environment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#142#156#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-814">
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1550#1588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Interpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Op.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Value.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Op.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Value.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Expression.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Environment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="122" />
+    <option name="width" value="1241" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fwjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fwjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fwjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fwjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fwjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fwjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjsu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fwjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fwjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sjsu" type="462c0819:PsiDirectoryNode" />
+              <item name="Expression.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634762052632" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.Interpreter" />
+      <module name="fwjs" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="" />
+      <created>1634688548607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634688548607</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="352" y="122" width="1241" height="784" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24937448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Op.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1550#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#142#156#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
