@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Value.java" afterDir="false" />
     </list>
@@ -63,19 +66,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="347">
               <caret line="246" column="34" selection-start-line="246" selection-start-column="34" selection-end-line="246" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Value.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="332">
               <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="166" column="36" lean-forward="true" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+            <state relative-caret-position="-1300">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3695#3703#0" expanded="true" />
@@ -181,7 +184,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635099205350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635099774222" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -276,7 +279,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="25" width="1450" height="1039" extended-state="0" />
+    <frame x="264" y="25" width="1450" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21235795" />
@@ -351,10 +354,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="166" column="36" lean-forward="true" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        <state relative-caret-position="-1300">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3695#3703#0" expanded="true" />
@@ -367,18 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="347">
           <caret line="246" column="34" selection-start-line="246" selection-start-column="34" selection-end-line="246" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Value.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
