@@ -96,9 +96,13 @@ class ClosureVal implements Value {
         Environment newEnv = new Environment(this.outerEnv);
         Iterator<String> paramsIterator = this.params.iterator();
         Iterator<Value> argsIterator = argVals.iterator();
+        String param;
+        Value arg = null;
         while (argsIterator.hasNext() && paramsIterator.hasNext()) {
-            newEnv.createVar(paramsIterator.next(), argsIterator.next());
+            param = paramsIterator.next();
+            arg = argsIterator.next();
+            newEnv.createVar(param, arg);
         }
-        return this;
+        return arg;
     }
 }

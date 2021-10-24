@@ -167,8 +167,8 @@ class SeqExpr implements Expression {
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
         this.e1.evaluate(env);
-        this.e2.evaluate(env);
-        return null;
+        return this.e2.evaluate(env);
+        //return null;
     }
 }
 
@@ -244,7 +244,7 @@ class FunctionAppExpr implements Expression {
         while (argsIterator.hasNext()) {
             argsVals.add(argsIterator.next().evaluate(env));
         }
-        closureVal.apply(argsVals);
-        return null;
+        return closureVal.apply(argsVals);
+        //return null;
     }
 }
