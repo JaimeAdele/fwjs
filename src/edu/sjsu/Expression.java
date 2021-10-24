@@ -1,6 +1,7 @@
 package edu.sjsu;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -73,7 +74,35 @@ class BinOpExpr implements Expression {
     @SuppressWarnings("incomplete-switch")
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        Value val1 = this.e1.evaluate(env);
+        Value val2 = this.e2.evaluate(env);
+        if (val1 instanceof IntVal && val2 instanceof IntVal) {
+            int int1 = ((IntVal) val1).toInt();
+            int int2 = ((IntVal) val2).toInt();
+            switch (this.op) {
+                case ADD:
+                    return new IntVal(int1 + int2);
+                case SUBTRACT:
+                    return new IntVal(int1 - int2);
+                case MULTIPLY:
+                    return new IntVal(int1 * int2);
+                case DIVIDE:
+                    return new IntVal(int1 / int2);
+                case MOD:
+                    return new IntVal(int1 % int2);
+                case GT:
+                    return new BoolVal(int1 > int2);
+                case GE:
+                    return new BoolVal(int1 >= int2);
+                case LT:
+                    return new BoolVal(int1 < int2);
+                case LE:
+                    return new BoolVal(int1 <= int2);
+                case EQ:
+                    return new BoolVal(int1 == int2);
+            }
+        }
+        //return null;
     }
 }
 
@@ -91,8 +120,13 @@ class IfExpr implements Expression {
         this.els = els;
     }
     public Value evaluate(Environment env) {
-        // YOUR CODE HERE
-        return null;
+        // YOUR CODE HERE ----- ??? What do we return from an if statement ??? ----------------------------------
+        Value condition = this.cond.evaluate(env);
+        if (condition instanceof BoolVal && ((BoolVal) condition).toBoolean()) {
+            return this.thn.evaluate(env);
+        } else {
+            return this.els.evaluate(env);
+        }
     }
 }
 
@@ -108,7 +142,13 @@ class WhileExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        Value condition = this.cond.evaluate(env);
+        Value returnVal = null;
+        while (condition instanceof BoolVal && ((BoolVal) condition).toBoolean()) {
+            returnVal = this.body.evaluate(env);
+            condition = this.cond.evaluate(env);
+        }
+        return returnVal;
     }
 }
 
@@ -124,6 +164,8 @@ class SeqExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        this.e1.evaluate(env);
+        this.e2.evaluate(env);
         return null;
     }
 }
@@ -140,6 +182,7 @@ class VarDeclExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        env.createVar(varName, new NullVal());//not sure about the value here... --------------------------------
         return null;
     }
 }
@@ -158,7 +201,9 @@ class AssignExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        Value varVal = e.evaluate(env);
+        env.updateVar(varName, varVal);
+        return varVal;
     }
 }
 
@@ -174,7 +219,7 @@ class FunctionDeclExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        return new ClosureVal(this.params, this.body, env);
     }
 }
 
@@ -190,6 +235,14 @@ class FunctionAppExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        ClosureVal closureVal = (ClosureVal)f.evaluate(env);//this should be a closure
+        //Create an iterator to evaluate each item in the args list
+        Iterator<Expression> argsIterator = this.args.iterator();
+        List<Value> argsVals = new ArrayList<>();
+        while (argsIterator.hasNext()) {
+            argsVals.add(argsIterator.next().evaluate(env));
+        }
+        closureVal.apply(argsVals);
         return null;
     }
 }

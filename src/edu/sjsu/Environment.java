@@ -65,5 +65,10 @@ public class Environment {
      */
     public void createVar(String key, Value v) {
         // YOUR CODE HERE
+        if (this.env.containsKey(key)) {
+            throw new RuntimeException();
+        } else {
+            this.env.put(key, v);
+        }
     }
 }

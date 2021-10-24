@@ -1,5 +1,6 @@
 package edu.sjsu;
 
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -92,6 +93,12 @@ class ClosureVal implements Value {
      */
     public Value apply(List<Value> argVals) {
         // YOUR CODE HERE
-        return null;
+        Environment newEnv = new Environment(this.outerEnv);
+        Iterator<String> paramsIterator = this.params.iterator();
+        Iterator<Value> argsIterator = argVals.iterator();
+        while (argsIterator.hasNext() && paramsIterator.hasNext()) {
+            newEnv.createVar(paramsIterator.next(), argsIterator.next());
+        }
+        return this;
     }
 }
