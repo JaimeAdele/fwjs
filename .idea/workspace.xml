@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="">
+    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="Making my own branch.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Value.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="rhea" />
+                    <option name="lastUsedInstant" value="1635104997" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1635102660" />
@@ -118,9 +123,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635099205350" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
-  <component name="RunManager" selected="JUnit.ExpressionTest">
+  <component name="RunManager" selected="JUnit.ExpressionTest.testDivFunction">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.sjsu.Interpreter" />
       <module name="fwjs" />
@@ -145,13 +151,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExpressionTest.testDivFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fwjs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.sjsu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.sjsu" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.ExpressionTest" />
+      <option name="METHOD_NAME" value="testDivFunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ExpressionTest" />
+      <item itemvalue="JUnit.ExpressionTest.testDivFunction" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExpressionTest" />
+        <item itemvalue="JUnit.ExpressionTest.testDivFunction" />
         <item itemvalue="JUnit.ExpressionTest" />
       </list>
     </recent_temporary>
@@ -167,6 +191,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634688548607</updated>
     </task>
+    <task id="LOCAL-00001" summary="Making my own branch.">
+      <created>1635105038144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635105038144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -238,7 +270,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="rhea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -249,6 +293,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Making my own branch." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making my own branch." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +306,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

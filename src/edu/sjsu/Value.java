@@ -103,6 +103,6 @@ class ClosureVal implements Value {
             arg = argsIterator.next();
             newEnv.createVar(param, arg);
         }
-        return arg;
+        return body.evaluate(newEnv);
     }
 }
