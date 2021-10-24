@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="VarDeclExpr.evaluate now passes expression as new value for variable, not null val. 3 more tests passed.">
+    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Environment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635107822463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing.">
+      <created>1635108461137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635108461137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -331,7 +338,9 @@
     <MESSAGE value="Making my own branch." />
     <MESSAGE value="ClosureVal.apply now evaluating expression, 2 more tests passed." />
     <MESSAGE value="VarDeclExpr.evaluate now passes expression as new value for variable, not null val. 3 more tests passed." />
-    <option name="LAST_COMMIT_MESSAGE" value="VarDeclExpr.evaluate now passes expression as new value for variable, not null val. 3 more tests passed." />
+    <MESSAGE value="Environment.resolveVar now returning new NullVal() instead of generic null value." />
+    <MESSAGE value="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

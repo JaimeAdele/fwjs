@@ -122,7 +122,9 @@ class IfExpr implements Expression {
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
         Value condition = this.cond.evaluate(env);
-        if (condition instanceof BoolVal && ((BoolVal) condition).toBoolean()) {
+        if (!(condition instanceof BoolVal))
+            throw new IllegalArgumentException("Condition should be BoolVal");
+        if (((BoolVal) condition).toBoolean()) {
             return this.thn.evaluate(env);
         } else {
             return this.els.evaluate(env);
