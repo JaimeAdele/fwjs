@@ -102,7 +102,7 @@ class BinOpExpr implements Expression {
                     return new BoolVal(int1 == int2);
             }
         }
-        //return null;
+        return null;
     }
 }
 
@@ -120,7 +120,7 @@ class IfExpr implements Expression {
         this.els = els;
     }
     public Value evaluate(Environment env) {
-        // YOUR CODE HERE ----- ??? What do we return from an if statement ??? ----------------------------------
+        // YOUR CODE HERE
         Value condition = this.cond.evaluate(env);
         if (condition instanceof BoolVal && ((BoolVal) condition).toBoolean()) {
             return this.thn.evaluate(env);
@@ -144,9 +144,11 @@ class WhileExpr implements Expression {
         // YOUR CODE HERE
         Value condition = this.cond.evaluate(env);
         Value returnVal = null;
-        while (condition instanceof BoolVal && ((BoolVal) condition).toBoolean()) {
-            returnVal = this.body.evaluate(env);
-            condition = this.cond.evaluate(env);
+        if (condition instanceof BoolVal) {
+            while (((BoolVal) condition).toBoolean()) {
+                returnVal = this.body.evaluate(env);
+                condition = this.cond.evaluate(env);
+            }
         }
         return returnVal;
     }

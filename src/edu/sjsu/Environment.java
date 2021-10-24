@@ -44,17 +44,21 @@ public class Environment {
      */
     public void updateVar(String key, Value v) {
         // YOUR CODE HERE
-        if (this.env.containsKey(key)) {
-            this.env.replace(key, v);
-        } else {
-            Environment outsideEnv = this.outerEnv;
-            while (outsideEnv != null){
-                if (outsideEnv.env.containsKey(key)) {
-                    outsideEnv.env.replace(key, v);
-                    break;
-                }
-                outsideEnv = outsideEnv.outerEnv;
+        Environment currentEnv = this;
+        Boolean updated = false;
+        while (!updated){
+            if (currentEnv.env.containsKey(key)) {
+                currentEnv.env.replace(key, v);
+                updated = true;
             }
+            if (currentEnv.outerEnv != null) {
+                currentEnv = currentEnv.outerEnv;
+            } else {
+                break;
+            }
+        }
+        if (!updated) {
+            currentEnv.env.put(key, v);
         }
     }
 
