@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5006" />
+          <entry key="java" value="5130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5006" />
+          <entry key="JAVA" value="5130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="246" column="34" selection-start-line="246" selection-start-column="34" selection-end-line="246" selection-end-column="34" />
+            <state relative-caret-position="171">
+              <caret line="184" column="44" lean-forward="true" selection-start-line="184" selection-start-column="44" selection-end-line="184" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -90,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1300">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="344">
+              <caret line="167" column="40" lean-forward="true" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3695#3703#0" expanded="true" />
@@ -130,12 +126,12 @@
         <option value="$PROJECT_DIR$/src/src/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/sjsu/Main.java" />
-        <option value="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/edu/sjsu/Op.java" />
         <option value="$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java" />
         <option value="$PROJECT_DIR$/src/edu/sjsu/Environment.java" />
-        <option value="$PROJECT_DIR$/src/edu/sjsu/Expression.java" />
         <option value="$PROJECT_DIR$/src/edu/sjsu/Value.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/edu/sjsu/Expression.java" />
       </list>
     </option>
   </component>
@@ -184,7 +180,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635099774222" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635100707324" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -247,12 +243,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionTest - 2021.10.23 at 23h 44m 46s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionTest - 2021.10.24 at 00h 03m 22s.xml">
-      <configuration name="ExpressionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExpressionTest - 2021.10.24 at 00h 13m 52s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
@@ -275,6 +265,12 @@
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExpressionTest - 2021.10.24 at 01h 08m 23s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2021.10.24 at 11h 34m 09s.xml">
+      <configuration name="ExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionTest - 2021.10.24 at 11h 38m 03s.xml">
       <configuration name="ExpressionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -318,39 +314,11 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java</url>
-          <line>100</line>
-          <properties class="edu.sjsu.ExpressionTest" method="testWhileExpr">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Op.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -366,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="344">
+          <caret line="167" column="40" lean-forward="true" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3695#3703#0" expanded="true" />
@@ -378,10 +346,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/sjsu/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="246" column="34" selection-start-line="246" selection-start-column="34" selection-end-line="246" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="184" column="44" lean-forward="true" selection-start-line="184" selection-start-column="44" selection-end-line="184" selection-end-column="44" />
         </state>
       </provider>
     </entry>
