@@ -1,4 +1,4 @@
-package edu.sjsu;
+package edu.sjsu.fwjs;
 
 import java.util.ArrayList;
 import java.util.Iterator;

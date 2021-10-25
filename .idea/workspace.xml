@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0f7e3c9c-bde4-459d-ab2d-37976267f976" name="Default Changelist" comment="IfExpr now throwing error if condition is not BoolVal type. All tests passing.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/AssignExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/AssignExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/BinOpExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/BinOpExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/BoolVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/BoolVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ClosureVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionAppExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionDeclExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/FunctionDeclExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/IfExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/IfExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/IntVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/IntVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Interpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/NullVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/NullVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Op.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Op.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/PrintExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/PrintExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/SeqExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ValueExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/ValueExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/VarDeclExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/VarDeclExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/VarExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/VarExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/WhileExpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fwjs/edu/sjsu/WhileExpr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/ExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Op.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Op.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Value.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +109,7 @@
     <option name="width" value="1450" />
     <option name="height" value="1039" />
   </component>
+  <component name="ProjectId" id="1zyTE7DxRjmojHSj8vDWCNdSYS4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -120,17 +145,34 @@
       <pane id="AndroidView" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635099205350" />
+    <property name="jdk.selected.JAVA_MODULE" value="10" />
+    <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/starter_code" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
-  <component name="RunManager" selected="JUnit.ExpressionTest.testVarNotFoundExpr">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhea\Documents\CS 152\fwjs" />
+      <recent name="C:\Users\rhea\Documents\CS 152\fwjs\temp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ExpressionTest">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.Interpreter" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.fwjs.Interpreter" />
       <module name="fwjs" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -142,12 +184,12 @@
       <module name="fwjs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.sjsu.*" />
+          <option name="PATTERN" value="edu.sjsu.fwjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.sjsu" />
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.ExpressionTest" />
+      <option name="PACKAGE_NAME" value="edu.sjsu.fwjs" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.fwjs.ExpressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,12 +199,12 @@
       <module name="fwjs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.sjsu.*" />
+          <option name="PATTERN" value="edu.sjsu.fwjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.sjsu" />
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.ExpressionTest" />
+      <option name="PACKAGE_NAME" value="edu.sjsu.fwjs" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.fwjs.ExpressionTest" />
       <option name="METHOD_NAME" value="testDivFunction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -173,12 +215,12 @@
       <module name="fwjs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.sjsu.*" />
+          <option name="PATTERN" value="edu.sjsu.fwjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.sjsu" />
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.ExpressionTest" />
+      <option name="PACKAGE_NAME" value="edu.sjsu.fwjs" />
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.fwjs.ExpressionTest" />
       <option name="METHOD_NAME" value="testVarNotFoundExpr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -193,14 +235,15 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpressionTest" />
         <item itemvalue="JUnit.ExpressionTest.testVarNotFoundExpr" />
         <item itemvalue="JUnit.ExpressionTest.testDivFunction" />
-        <item itemvalue="JUnit.ExpressionTest" />
         <item itemvalue="JUnit.ExpressionTest" />
         <item itemvalue="JUnit.ExpressionTest.testDivFunction" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -240,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635108461137</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="IfExpr now throwing error if condition is not BoolVal type. All tests passing.">
+      <created>1635111097639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635111097639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -318,7 +368,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -340,13 +390,14 @@
     <MESSAGE value="VarDeclExpr.evaluate now passes expression as new value for variable, not null val. 3 more tests passed." />
     <MESSAGE value="Environment.resolveVar now returning new NullVal() instead of generic null value." />
     <MESSAGE value="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Environment.resolveVar now returning new NullVal() instead of generic null value. 16/17 tests passing." />
+    <MESSAGE value="IfExpr now throwing error if condition is not BoolVal type. All tests passing." />
+    <option name="LAST_COMMIT_MESSAGE" value="IfExpr now throwing error if condition is not BoolVal type. All tests passing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/edu/sjsu/fwjs/ExpressionTest.java</url>
           <line>100</line>
           <properties class="edu.sjsu.ExpressionTest" method="testWhileExpr">
             <option name="EMULATED" value="true" />
@@ -354,12 +405,12 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/edu/sjsu/fwjs/ExpressionTest.java</url>
           <line>142</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/sjsu/ExpressionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/edu/sjsu/fwjs/ExpressionTest.java</url>
           <line>34</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>

@@ -1,4 +1,4 @@
-package edu.sjsu;
+package edu.sjsu.fwjs;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,4 +1,4 @@
-package edu.sjsu;
+package edu.sjsu.fwjs;
 
 import static org.junit.Assert.*;
 
