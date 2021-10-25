@@ -34,7 +34,8 @@ public class Environment {
             currentEnv = currentEnv.outerEnv;
             varVal = currentEnv.env.get(varName);
         }
-        return varVal;
+        //return varVal;
+        return (varVal == null) ? new NullVal() : varVal;
     }
 
     /**
